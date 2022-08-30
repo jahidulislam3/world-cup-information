@@ -1,0 +1,64 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.world-cup {
+    display: flex;
+    background-image: linear-gradient(337deg, #000000, #a60313);
+    margin: 0px 157px;
+    border-radius: 41px;
+}
+
+.world-cup-title {
+    width: 472px;
+    padding-left: 31px;
+}
+
+.world-cuppicture img {
+    width: 415px;
+    padding-top: 23px;
+    margin-left: 48px;
+}
+
+.world-cup-title h1 {
+    font-size: 61px;
+    color: white;
+}
+
+.world-cup-title p {
+    color: white;
+}
+
+button {
+    color: black;
+    background: yellow;
+    padding: 10px 20px;
+    font-weight: 800;
+    border-radius: 13px;
+}
+
+
+/* ------------------
+Mobile Responsive
+--------------------- */
+@media only screen and (max-width: 688px) {
+    .world-cup {
+        flex-direction: column;
+        margin: 0;
+        width: auto;
+    }
+
+    .world-cup-title {
+        width: 253px;
+        text-align: center;
+    }
+
+    .world-cup-title h1 {
+        font-size: 31px;
+    }
+
+    .world-cuppicture img {
+        width: 100%;
+        margin: 0px;
+    }
+}
