@@ -1,5 +1,6 @@
 body {
     font-family: 'Roboto', sans-serif;
+    margin: 0;
 }
 
 section.Container {
@@ -114,6 +115,66 @@ a#blog {
     margin-left: 15px;
 }
 
+footer {
+    text-align: center;
+    background: #161616;
+    color: white;
+    padding: 35px 0px 85px 0px;
+}
+
+hr {
+    margin-bottom: 30px;
+    width: 80%;
+}
+
+span {
+    padding: 0px 15px 0px 15px;
+}
+
+.footerIcon {
+    padding-top: 30px;
+}
+
+.footerIcon i {
+    padding: 24px;
+    font-size: 32px;
+}
+
+.footerIcon a {
+    color: white;
+}
+
+/* UpLoad Match Style */
+.country-flags {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.flag {
+    display: flex;
+}
+
+.flag img {
+    border-radius: 11px;
+}
+
+.country-flag {
+    height: 203px;
+    border: 1px solid #333;
+    border-radius: 12px;
+    margin-left: 30px;
+    margin-bottom: 20px;
+}
+
+.country-flags h4 {
+    padding-left: 24px;
+    font-weight: 900;
+}
+
+.country-flags p {
+    padding-left: 25px;
+}
+
 /* ------------------
 Mobile Responsive
 --------------------- */
@@ -156,4 +217,50 @@ Mobile Responsive
         width: 282px;
         margin: 0px 0px 15px 0px;
     }
+
+    span {
+        display: block;
+        padding: 14px;
+    }
+
+}
+
+/* responsive tav */
+@media only screen and (min-width: 688px) and (max-width:990px) {
+    .world-cup {
+        width: 100%;
+        margin: 0px;
+        border-radius: 0px;
+    }
+
+    .world-cuppicture img {
+        padding-top: 129px;
+    }
+
+    .match-information {
+        background: none;
+        display: flex;
+        width: auto;
+        height: auto;
+        font-weight: 900;
+        margin-left: 20px;
+    }
+
+    .match-information a {
+        border: 1px solid black;
+        width: 218px;
+        margin: 0px 10px 0px 10px;
+    }
+
+    .match-information-part {
+        padding: 0px 0px 0px 0px;
+        display: block;
+    }
+
+    .blogs {
+        grid-template-columns: repeat(2, 1fr);
+        padding: 39px 15px 0px 64px;
+    }
+
+    footer {}
 }
