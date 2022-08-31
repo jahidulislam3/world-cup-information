@@ -122,6 +122,11 @@ footer {
     padding: 35px 0px 85px 0px;
 }
 
+button.view-all {
+    margin-left: 514px;
+    display: none;
+}
+
 hr {
     margin-bottom: 30px;
     width: 80%;
@@ -257,10 +262,17 @@ Mobile Responsive
         display: block;
     }
 
+    .blogs :last-child {
+        display: none;
+    }
+
     .blogs {
         grid-template-columns: repeat(2, 1fr);
         padding: 39px 15px 0px 64px;
     }
 
-    footer {}
+    button.view-all {
+        margin: 31px 320px;
+        display: block;
+    }
 }
