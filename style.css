@@ -137,4 +137,23 @@ Mobile Responsive
         width: 100%;
         margin: 0px;
     }
+
+    .match-information-part {
+        flex-direction: column;
+        padding: 24px;
+    }
+
+    .blogs {
+        display: block;
+        padding-top: 24px;
+    }
+
+    .blog>img {
+        width: 282px;
+    }
+
+    .blog {
+        width: 282px;
+        margin: 0px 0px 15px 0px;
+    }
 }
